@@ -286,6 +286,7 @@ ALTER TABLE public.order_id_seq OWNER TO $POSTGRESQL_USER;
 CREATE TABLE public.orders (
     id bigint NOT NULL,
     customer_id character varying(30),
+    order_status character varying(30),
     order_ts timestamp without time zone
 );
 
