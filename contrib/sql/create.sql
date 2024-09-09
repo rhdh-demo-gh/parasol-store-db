@@ -28,6 +28,8 @@ CREATE TABLE public.catalog (
     item_id character varying(256) NOT NULL,
     name character varying(256),
     description text,
+    features text,
+    benefits text,
     category bigint,
     price double precision
 );

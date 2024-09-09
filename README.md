@@ -1,1 +1,1 @@
-Container image definition for the PostgreSQL database of the monolith version of the Globex store.
+Container image definition for the PostgreSQL database of the monolith version of the Parasol store.
