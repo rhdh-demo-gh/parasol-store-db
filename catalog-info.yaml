@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parasol-db
+  description: "Database component for the Parasol application in the Red Hat PE Workshop"
+  owner: redhat-pe-workshop
+  annotations:
+    github.com/project-slug: redhat-pe-workshop/parasol-db
+    backstage.io/techdocs-ref: url:https://github.com/redhat-pe-workshop/parasol-db
+  tags:
+    - database
+    - parasol
+    - redhat
+spec:
+  type: service
+  lifecycle: experimental
+  owner: redhat-pe-workshop
+  system: parasol
+  repository: https://github.com/redhat-pe-workshop/parasol-db
+  dependsOn:
+    - techdocs:backstage.io/techdocs-ref
