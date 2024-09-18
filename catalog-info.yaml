@@ -5,8 +5,8 @@ metadata:
   description: "Database component for the Parasol application in the Red Hat PE Workshop"
   owner: redhat-pe-workshop
   annotations:
-    github.com/project-slug: redhat-pe-workshop/parasol-db
-    backstage.io/techdocs-ref: url:https://github.com/redhat-pe-workshop/parasol-db
+    argocd/app-selector: rhdh.app/name=parasol
+    github.com/project-slug: rhdh-demo-gh/parasol-db
   tags:
     - database
     - parasol
