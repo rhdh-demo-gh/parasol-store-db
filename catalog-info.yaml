@@ -3,7 +3,6 @@ kind: Component
 metadata:
   name: parasol-db
   description: "Database component for the Parasol application in the Red Hat PE Workshop"
-  owner: redhat-pe-workshop
   annotations:
     argocd/app-selector: rhdh.app/name=parasol
     github.com/project-slug: rhdh-demo-gh/parasol-db
