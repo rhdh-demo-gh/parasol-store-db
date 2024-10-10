@@ -16,5 +16,3 @@ spec:
   owner: group:rhdh-demo-gh/docs-team
   system: parasol
   repository: https://github.com/redhat-pe-workshop/parasol-db
-  dependsOn:
-    - techdocs:backstage.io/techdocs-ref
