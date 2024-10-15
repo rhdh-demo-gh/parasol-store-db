@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Resource
 metadata:
   name: parasol-db
   description: "Database component for the Parasol application in the Red Hat PE Workshop"
