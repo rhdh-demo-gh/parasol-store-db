@@ -13,6 +13,6 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: group:rhdh-demo-gh/docs-team
+  owner: group:rhdh-demo-gh/core-team
   system: parasol
   repository: https://github.com/redhat-pe-workshop/parasol-db
